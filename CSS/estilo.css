@@ -1,15 +1,185 @@
 body{
     background-image: url("../Imagens/armario.png");
     background-size: 50%;
+    color: rgb(247, 243, 243)(0, 0, 0);/*Cor da fonte */
+    font-size: 20px; /*tamanho da Fonte*/
+    margin: 0; /*Margem em relação a tela */ 
 }
 
 .titulo{
-    border: 2px #000;
+    border: 2px #fff;
 }
 
 
 h1{
     text-align: center;
-    background-color: #000;
+    background-color: rgb(3, 3, 3);
     color: #fff;
 }
+
+header{
+    border: 2px solid #000;
+    text-align: center;
+ 
+}/* Seletor do cabeçalho */
+ 
+.botoesMenu, li{
+    color: rgb(248, 246, 246);
+    list-style: none; /* Remover as bolinhas de toipicos*/
+    display: inline;/* Transformar coluna em linha*/
+    border: 2px solid #000;
+    padding: 20px;    
+    background-color: #000;
+    text-decoration-line: underline;
+}
+ 
+li:hover{
+    background-color: #444;
+    font-size: 30px;
+    font-family: 'trebuchet MS'; /* Definir uma fonte */
+    border: 10px solid rgb(248, 247, 247);
+    background-image: url("../Imagens/tricolor.png";)
+}/* Modifica o conteudo original da TAG*/
+ 
+ 
+ 
+aside{
+    background-image: url("../Imagens/img3.jpg");
+    background-repeat: no-repeat;
+}
+
+p{
+    background-color: #888;
+
+}
+ 
+.imgFmt{
+    /* Formatar a Imagem*/
+    width: 50%; /*Altura*/
+    height: 50%;   /* Largura*/
+}
+ 
+.galeria{
+    display: grid; /*Formato de Visualização  -  Tabela*/
+    grid-template-columns: 30% 30% 30%; /*Quantidade de colunas e tamanhos*/
+    grid-template-rows: auto; /*Quantidade de linhas e tamanhos*/
+    grid-gap: 1%; /*Espaço entre os conteúdos*/
+    margin-left: 5%; /*Margem do lado esquerdo */
+}
+ 
+article{
+    border: 2px solid #000;
+    text-align: center; /* Alinhamento do Texto */
+    color: #000;
+    font-size: 110%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 15%;
+   
+}
+ 
+h3{
+    border: 2px solid #000;
+    margin-top: 0%; /* Espaco Externo */
+    padding: 3%; /* Espaço Interno */
+    background-color: #000;
+    color: #fff;
+    font-size: 150%;
+ 
+}
+ 
+a{
+
+    padding: 5%;
+    font-weight: bold; /* Negrito */
+
+    color: rgb(0, 0, 0);
+   
+ 
+}
+.preco{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 6%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(10, 10, 10);
+    font: 130%;
+    border-radius: 60%;
+       
+}
+ 
+ul{
+    margin-bottom: 2%;
+}
+
+#fuzilak{
+
+    font-size: 200%;
+    font-weight: bold; /* Negrito */
+    color: rgb(10, 10, 10);
+
+}
+
+#gl1{
+
+    height: 88%;
+}
+
+#escopeta{
+
+    font-size: 200%;
+    font-weight: bold; /* Negrito */
+    color: rgb(10, 10, 10);
+    
+}
+
+#gl2{
+
+    height: 88%;
+}
+
+#glock{
+
+    font-size: 200%;
+    font-weight: bold; /* Negrito */
+    color: rgb(10, 10, 10);
+    
+
+}
+
+#gl3{
+
+    height: 88%;
+
+}
+
+#carabina{
+
+    font-size: 200%;
+    font-weight: bold; /* Negrito */
+    color: rgb(10, 10, 10);
+    height: 47%;
+}
+
+#gl4{
+    
+    height: 88%;
+
+}
+
+#revolver{
+
+    font-size: 200%;
+    font-weight: bold; /* Negrito */
+    color: rgb(10, 10, 10);
+
+}
+
+#gl5{
+
+    height: 88%;
+    
+}
+
